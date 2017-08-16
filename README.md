@@ -1,19 +1,25 @@
-# Auto-Task
-Task Automation w/ Python
+# Crawling
 
-1. How to send an email with Python
--> if you are sending large amounts of emails for your business, use another service.
--> AWS SES (Simple Email Service) : send more than 10,000 emails easily (Almost free).
--> SendGrid
+## what is web scraping? (=== crawling)
+Web scraping is a computer software technique of extracting information from websites
 
-  - we use SMTP protocol
-  - or we use API
+It matters how we construct the program
 
-2. SMS (Texting)
--> open API
+##### Where to perform crawling?
+1. HTML
+2. JSON
+3. Javascript
+4. Authorization....
+5. web front framework
+6. so on
 
-3. App Push
--> no pricing
--> too many push? user will delete your App
+## HTTP(S) Clients: Hyper Text Transfer Protocoll
 
-4. Message Service (Kakao, line, slack, telegram)
+We start project with web-client architecture
+To customize, use socket server architecture
+
+- GUI browser : Chrome, Firefox, ...
+- CLI browser: w3m, elinks, <- Text
+- CLI browser call : curl, wget
+
+- Python library/framework : requests, selenium, Scrapy
